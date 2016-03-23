@@ -1,0 +1,25 @@
+; from /home/guicho/repos/ipc200x-clean/psr-small/p02-s5-n1-l3-f30.pddl
+(define (problem grounded-STRIPS-PSR-S5-N1-L3-F30)
+(:domain grounded-STRIPS-PSR)
+(:init
+(do-normal)
+(NOT-UPDATED-CB1)
+(CLOSED-SD8)
+(CLOSED-SD7)
+(CLOSED-SD6)
+(CLOSED-SD5)
+(CLOSED-SD4)
+(CLOSED-SD3)
+(CLOSED-SD2)
+(CLOSED-SD1)
+(CLOSED-CB1)
+)
+(:goal
+(and
+(do-normal)
+(CLOSED-SD7)
+(CLOSED-CB1)
+(UPDATED-CB1)
+)
+)
+)
